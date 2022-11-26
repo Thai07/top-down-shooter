@@ -6,6 +6,15 @@
 anchor_right = 1.0
 anchor_bottom = 1.0
 script = ExtResource( 1 )
+__meta__ = {
+"_edit_horizontal_guides_": [ 1026.0 ]
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+rect_scale = Vector2( 25.9735, 14.888 )
+color = Color( 0.596078, 0.745098, 0.890196, 1 )
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 anchor_left = 0.5
@@ -33,6 +42,13 @@ margin_top = 48.0
 margin_right = 82.0
 margin_bottom = 68.0
 text = "Quit Game"
+
+[node name="version" type="Label" parent="."]
+margin_left = 1.0
+margin_top = -1.0
+margin_right = 83.0
+margin_bottom = 13.0
+text = "V0.1 Alpha"
 
 [connection signal="pressed" from="VBoxContainer/Start" to="." method="_on_Start_pressed"]
 [connection signal="pressed" from="VBoxContainer/Options" to="." method="_on_Options_pressed"]

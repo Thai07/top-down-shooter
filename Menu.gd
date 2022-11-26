@@ -21,7 +21,7 @@ func _on_Start_pressed():
 
 
 func _on_Options_pressed():
-	var options  = load("")
+	var options  = load("res://Options.tscn")
 	get_tree().current_scene.add_child(options)
 
 

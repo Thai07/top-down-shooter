@@ -1,0 +1,21 @@
+[gd_scene format=2]
+
+[node name="Options" type="Node2D"]
+position = Vector2( 105, 242 )
+scale = Vector2( 6.46771, 1.74631 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_left = -37.1074
+margin_top = -187.252
+margin_right = 2.89259
+margin_bottom = -147.252
+rect_scale = Vector2( 25.9735, 14.888 )
+color = Color( 0.596078, 0.745098, 0.890196, 1 )
+
+[node name="Label" type="Label" parent="."]
+anchor_left = -0.434
+anchor_right = 0.79
+anchor_bottom = 0.704
+margin_right = 132.0
+margin_bottom = 14.0
+text = "yapcam test için var "
