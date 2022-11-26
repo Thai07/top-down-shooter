@@ -20,6 +20,9 @@ func _physics_process(_delta: float) -> void:
 	if direction.length() > 1.0:
 		direction = direction.normalized()
 	move_and_slide(speed * direction)
+	look_at(get_global_mouse_position())
+
+
 
 
 
