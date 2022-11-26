@@ -9,6 +9,7 @@ radius = 13.1902
 [node name="Node2D" type="Node2D"]
 
 [node name="KinematicBody2D" type="KinematicBody2D" parent="."]
+position = Vector2( 344, 205 )
 script = ExtResource( 1 )
 
 [node name="Icon" type="Sprite" parent="KinematicBody2D"]
