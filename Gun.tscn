@@ -6,6 +6,9 @@
 extents = Vector2( 12, 26 )
 
 [node name="Gun" type="RigidBody2D"]
+mode = 3
+mass = 0.00102041
+gravity_scale = 0.0
 __meta__ = {
 "_edit_group_": true
 }

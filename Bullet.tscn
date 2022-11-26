@@ -6,6 +6,7 @@
 extents = Vector2( 14, 7 )
 
 [node name="Bullet" type="RigidBody2D"]
+scale = Vector2( 0.330661, 0.279999 )
 __meta__ = {
 "_edit_group_": true
 }
